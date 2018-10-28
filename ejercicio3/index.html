@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> clase 3 ejercicio 3</title>
+    <style>
+      html body { margin: auto;}
+      .square {
+      background-color: red;
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      border-radius: 50%;
+      }
+      .horizontal {
+      width: 100%;
+      position: absolute;
+      }
+      .vertical {
+      height: 100%;
+      position: absolute;
+      }
+
+      .pais{
+      position: absolute;
+      margin-top: 300px;
+      }
+
+      .espana { /* inferior rosado */
+        background-color: red;
+        position: relative;
+        float: left;
+        width: 30%;
+        height: 300px;
+        margin: 15px;
+        border: solid 1px gray;
+        box-sizing: border-box;
+
+      }
+      .dinamarca { /* centro verde */
+        background-color: red;
+        position: relative;
+        float: left;
+        width: 30%;
+        height: 300px;
+        margin: 15px;
+        border: solid 1px gray;
+        box-sizing: border-box;
+      }
+      .emiratos { /* superior purple */
+        background-color: red;
+        position: relative;
+        float: left;
+        clear: both;
+        width: 30%;
+        height: 300px;
+        margin: 15px;
+        /* padding-left: 30%; */
+        border: solid 1px gray;
+        box-sizing: border-box;
+      }
+      .japon { /* superior purple */
+        background-color: white;
+        position: relative;
+        float: left;
+        width: 30%;
+        height: 300px;
+        margin: 15px;
+        border: solid 1px gray;
+        box-sizing: border-box;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="espana">
+      <div class="horizontal" style="background-color: yellow; height: 150px; margin:17% 0;"></div>
+      <div class="pais"> España</div>
+    </div>
+
+    <div class="dinamarca">
+      <div class="horizontal" style="background-color: white; height: 30px; margin:32% 0;"></div>
+      <div class="vertical" style="background-color: white; width: 30px; margin:0 32%;"></div>
+      <div class="pais"> Dinamarca </div>
+    </div>
+
+    <div class="emiratos">
+      <div class="horizontal" style="background-color: green; height: 100px; width:75%; left: 25%;"></div>
+      <div class="horizontal" style="background-color: white; height: 100px; width:75%; left: 25%; bottom:100px; "></div>
+      <div class="horizontal" style="background-color: black; height: 100px; width:75%; left: 25%; bottom:0; "></div>
+      <div class="pais"> Emiratos Árabes</div>
+    </div>
+
+
+    <div class="japon">
+      <div class="square" style="margin: 84px 150px;"> </div>
+      <div class="pais"> Japón</div>
+    </div>
+
+  </body>
+</html>
